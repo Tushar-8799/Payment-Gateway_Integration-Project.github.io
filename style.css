@@ -1,0 +1,157 @@
+#nav
+{
+    overflow: hidden;
+    background-color: #04AA6D;
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+}
+#spa
+{
+    position:sticky;
+    float: left;
+    justify-content: center;
+    margin: 0px 20px;
+}
+.active
+{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.active:hover
+{
+    background-color: rgb(170, 169, 169);
+    color: white;
+    border-radius: 30px;
+}
+.img2
+{
+    float:left;
+    margin-right: 16px;
+    margin-top: 0px;
+    border-radius: 20px;
+    border: 7px solid black;
+
+}
+.ar
+{
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    height: 65px;
+    font-size: 0.7rem;
+}
+#covid
+{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+
+}
+.about
+{
+    width:1000px;
+    background-color: rgba(179, 161, 230, 0.5);
+    height: 400px;
+    margin-left: 250px;
+    color:black;
+    border-radius: 20px;
+    margin-top: 50px
+}
+.img3
+{
+    float:right;
+    margin-top: -9px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 7px solid black;
+
+}
+#cov
+{
+    margin-top: 95px;
+    margin-left: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.ai
+{
+    margin-top: -20px;
+    padding-top: 35px;
+    margin-left: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-bottom: 70px;
+    font-size: 17px;
+}
+#h1
+{
+    margin-bottom: -40px;
+    font-size:60px;
+    color: maroon;
+}
+.hero-image {
+    margin-top: 65px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.istockphoto.com/photos/the-word-donate-on-wooden-blocks-with-heart-icon-against-blue-and-picture-id1271755758?b=1&k=20&m=1271755758&s=170667a&w=0&h=ymh_AtlshzX6A3-f4EY8Bif-8ToKiNxkPY9TzQ06irE=");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+  }
+
+  .hero-text {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .button {
+    border: none;
+    text-decoration: none;
+    outline: 0;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: maroon;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+
+  .button:hover {
+    background-color: #da7370;
+    color: white;
+    cursor: pointer;
+  }
+
+  .pay {
+    text-decoration: none;
+    color: black;
+  
+  }
